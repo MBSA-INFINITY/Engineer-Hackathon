@@ -125,6 +125,3 @@ def hostel():
     return render_template('hostel.html',rollno =rollno)
 
 
-
-if __name__ == '__main__':
-    app.run(debug = True)
